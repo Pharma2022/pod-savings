@@ -1,0 +1,40 @@
+,drug_name,drug_cost,date_created,quantity,email
+0,ATROPINE SULPHATE 1 % Minims,20.352,2025-04-14,3,shah.aowal@nhs.net
+1,BRIMONIDINE TARTRATE 0.2 % Eye Drops,1.572,2025-05-13,1,jide.aderibigbe@nhs.net
+2,CO-DYDRAMOL 10mg/500mg Tablets,1.908,2025-05-14,1,jide.aderibigbe@nhs.net
+3,COLECALCIFEROL 1000 units Tablets,4.416,2025-05-18,1,jide.aderibigbe@nhs.net
+4,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-03-31,1,aneta.rysak@nhs.net
+5,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-04-01,1,annamaria.boros@nhs.net
+6,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-04-02,1,jurgita.svegzdiene@nhs.net
+7,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-04-28,1,nadeera.wedagedara@nhs.net
+8,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-04-29,7,bela.patel5@nhs.net
+9,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-05-07,1,jide.aderibigbe@nhs.net
+10,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-05-11,1,annamaria.boros@nhs.net
+11,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-05-12,1,annamaria.boros@nhs.net
+12,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-05-11,1,annamaria.boros@nhs.net
+13,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-05-14,1,aneta.rysak@nhs.net
+14,DAPAGLIFLOZIN 10 mg Tablets,43.908,2025-05-20,1,aneta.rysak@nhs.net
+15,EDOXABAN 30 mg Tablets,39.984,2025-05-14,1,nadeera.wedagedara@nhs.net
+16,EDOXABAN 60 mg Tablets,39.984,2025-04-14,2,shah.aowal@nhs.net
+17,EDOXABAN 60 mg Tablets,39.984,2025-05-07,1,jide.aderibigbe@nhs.net
+18,FOSTAIR 100/6 micrograms per metered dose Inhaler,31.836,2025-05-12,1,annamaria.boros@nhs.net
+19,FOSTAIR 100/6 micrograms per metered dose Inhaler,31.836,2025-05-13,1,jide.aderibigbe@nhs.net
+20,FOSTAIR 200/6 micrograms per metered dose Inhaler,31.836,2025-04-02,1,jide.aderibigbe@nhs.net
+21,FOSTAIR 200/6 micrograms per metered dose Inhaler,31.836,2025-04-13,1,sima.jadeja@nhs.net
+22,FOSTAIR 200/6 micrograms per metered dose Inhaler,31.836,2025-05-05,1,eleonorica.balanica@nhs.net
+23,FOSTAIR 200/6 micrograms per metered dose Inhaler,31.836,2025-05-07,1,jide.aderibigbe@nhs.net
+24,INSULIN DEGLUDEC (TRESIBA FLEXTOUCH) 100 units in 1 mL Cartridges,55.92,2025-05-19,1,annamaria.boros@nhs.net
+25,INSULIN GLARGINE (LANTUS SOLOSTAR) 100 units in 1 mL Pre-Filled Pen,41.7,2025-04-01,2,annamaria.boros@nhs.net
+26,INSULIN GLARGINE (LANTUS SOLOSTAR) 100 units in 1 mL Pre-Filled Pen,41.7,2025-04-22,2,annamaria.boros@nhs.net
+27,INSULIN GLARGINE (LANTUS SOLOSTAR) 100 units in 1 mL Pre-Filled Pen,41.7,2025-04-27,1,nadeera.wedagedara@nhs.net
+28,INSULIN GLARGINE (LANTUS SOLOSTAR) 100 units in 1 mL Pre-Filled Pen,41.7,2025-05-07,1,jide.aderibigbe@nhs.net
+29,INSULIN GLARGINE (LANTUS SOLOSTAR) 100 units in 1 mL Pre-Filled Pen,41.7,2025-05-08,1,annamaria.boros@nhs.net
+30,INSULIN GLARGINE (LANTUS SOLOSTAR) 100 units in 1 mL Pre-Filled Pen,41.7,2025-05-11,1,annamaria.boros@nhs.net
+31,INSULIN HUMULIN M3 KWIK PEN 100 units in 1 mL Pre-Filled Pen,26.04,2025-05-14,1,nadeera.wedagedara@nhs.net
+32,INSULIN NOVORAPID (INSULIN ASPART) 100 units in 1 mL FlexPen,36.72,2025-05-19,1,annamaria.boros@nhs.net
+33,LATANOPROST 50 micrograms in 1mL Eye Drops,4.32,2025-05-12,1,jide.aderibigbe@nhs.net
+34,LATANOPROST 50 micrograms in 1mL Eye Drops,4.32,2025-05-13,1,jide.aderibigbe@nhs.net
+35,METHENAMINE HIPPURATE 1 g Tablets,23.688,2025-05-12,1,jide.aderibigbe@nhs.net
+36,PREDNISOLONE 5 mg Tablets,0.336,2025-05-18,1,jide.aderibigbe@nhs.net
+37,RIVAROXABAN 15 mg Tablets 42 pack size,68.04,2025-04-28,1,nadeera.wedagedara@nhs.net
+38,SYMBICORT 200/6  Turbohaler,31.92,2025-05-20,1,annamaria.boros@nhs.net
