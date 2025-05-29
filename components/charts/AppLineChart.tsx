@@ -53,9 +53,11 @@ const AppComparisonCharts = () => {
     <>
       {/* 🔷 Last Month Line Chart */}
       <SmallDashboardItem>
+        <ResponsiveContainer>
+          
+        <h1 className="text-center mb-12">Last Month</h1>
         <ChartContainer config={{ label: dynamicMonths.lastMonth, color: "hsl(220, 100%, 50%)" }} className="border rounded-lg shadow-md p-4">
-          <ResponsiveContainer width="100%" height={280}>
-            <LineChart data={lastMonthData} margin={{ left: 16, right: 16, top: 20, bottom: 20 }}>
+            <LineChart data={lastMonthData} >
               <CartesianGrid strokeDasharray="4 4" opacity={0.2} vertical={false} />
               <YAxis tickLine={false} axisLine={true} tickMargin={8} domain={[0, "auto"]} tickFormatter={(value) => `£${value.toFixed(2)}`} />
               <XAxis dataKey="date" tick={false} axisLine={false} />
@@ -63,15 +65,17 @@ const AppComparisonCharts = () => {
               <ChartTooltip cursor={{ strokeDasharray: "4 4" }} content={<ChartTooltipContent />} />
               <Line dataKey="savings" type="monotone" stroke="hsl(220, 100%, 50%)" strokeWidth={2} dot={false} name={`${dynamicMonths.lastMonth} Savings`} />
             </LineChart>
-          </ResponsiveContainer>
         </ChartContainer>
+
+        </ResponsiveContainer>
       </SmallDashboardItem>
 
       {/* 🟢 This Month Line Chart */}
       <SmallDashboardItem>
+        <ResponsiveContainer>
+        <h1 className="text-center mb-12">This Month</h1>
         <ChartContainer config={{ label: dynamicMonths.thisMonth, color: "hsl(140, 80%, 45%)" }} className="border rounded-lg shadow-md p-4">
-          <ResponsiveContainer width="100%" height={280}>
-            <LineChart data={thisMonthData} margin={{ left: 16, right: 16, top: 20, bottom: 20 }}>
+            <LineChart data={thisMonthData} >
               <CartesianGrid strokeDasharray="4 4" opacity={0.2} vertical={false} />
               <YAxis tickLine={false} axisLine={true} tickMargin={8} domain={[0, "auto"]} tickFormatter={(value) => `£${value.toFixed(2)}`} />
               <XAxis dataKey="date" tick={false} axisLine={false} />
@@ -79,8 +83,8 @@ const AppComparisonCharts = () => {
               <ChartTooltip cursor={{ strokeDasharray: "4 4" }} content={<ChartTooltipContent />} />
               <Line dataKey="savings" type="monotone" stroke="hsl(140, 80%, 45%)" strokeWidth={2} dot={false} name={`${dynamicMonths.thisMonth} Savings`} />
             </LineChart>
-          </ResponsiveContainer>
         </ChartContainer>
+        </ResponsiveContainer>
       </SmallDashboardItem>
     </>
   );

@@ -1,34 +1,42 @@
-import {
-  Home,
-  Settings,
-  User2,
-  ChevronUp,
-  Plus,
-  Projector,
-  PoundSterling, // 💷 Icon for drug costs
-} from "lucide-react";
+"use client"
+import { User2, ChevronUp, Home, Plus, Settings } from "lucide-react";
+import { useSidebar } from "./ui/sidebar";  // ✅ Import sidebar context
 import Link from "next/link";
-import Image from "next/image";
-
+import { Button } from "./ui/button";
 const items = [
-  { title: "Home", url: "/", icon: Home },
-  { title: "Record Savings", url: "/add-drug", icon: Plus },
-  { title: "View Savings", url: "/view-all", icon: Projector },
   {
-    title: "Drug Costs",
-    url: "/drug-costs",
-    icon: PoundSterling,
+    title: "Home",
+    url: "/",
+    icon: Home,
   },
-  { title: "Admin", url: "/admin", icon: Settings },
-];
+ 
+  {
+    title: "Record Savings",
+    url: "/add-drug",
+    icon: Plus,
+  },
+   {
+    title: "View Savings",
+    url: "/add-drug",
+    icon: Plus,
+  },
+  {
+    title: "Admin",
+    url: "/admin",
+    icon: Settings,
+  },
+]
 
 const AppSidebar = () => {
+  const { open, toggleSidebar } = useSidebar();  // ✅ Extract sidebar state
+
   return (
-    <aside className="bg-gray-900 text-white w-64 flex flex-col h-screen">
+    <aside className={`bg-gray-900 text-white w-64 flex flex-col h-screen ${open ? "block" : "hidden"}`}>
       <header className="py-4 px-6 flex items-center">
         <Link className="ml-2 font-bold" href="/">
          Shah
         </Link>
+    
       </header>
 
       <nav className="mt-4 flex-1">
@@ -46,7 +54,7 @@ const AppSidebar = () => {
 
       <footer className="p-6 border-t border-gray-800 flex items-center justify-between">
         <User2 className="w-5 h-5" />
-        <span>John Doe</span>
+        <span>Shah</span>
         <ChevronUp className="w-4 h-4 text-gray-500" />
       </footer>
     </aside>
